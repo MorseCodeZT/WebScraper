@@ -1,5 +1,8 @@
 # Zenigata
-This is a project maded by me during my intership period into MalwareBytes.
+Crowler for malware analyst.
+
+ABOUT IT:
+  - This is a project make by me during my intership period at MalwareBytes.
 
 WHAT IS IT:
   - Zenigata is a Crowler appointed to capture through regular expression all the IOC presents into the web page. 
