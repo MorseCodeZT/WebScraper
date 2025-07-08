@@ -16,7 +16,7 @@ SOME INFO ABOUT IT:
   for Android and iOS device.
 
 WHAT IS HES PURPOSE:
-  The objective of Zenigata is to save time for the malware analyst, that need IOCs for their purpose.
+  - The objective of Zenigata is to save time for the malware analyst, that need IOCs for their purpose.
 
 REQUIREMENTS:
   - Before run Zenigata you nee to download those library:
