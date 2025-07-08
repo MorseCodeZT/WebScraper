@@ -21,7 +21,7 @@ REQUIREMENTS:
     . requests -> python.exe -m pip install requests;
     . pymongo -> python.exe -m pip install pymongo;
 
-  The defaul options are:
+  DEFAULT OPTIONS:
     - MongoDB settings:
       . client will connect to "mongodb://localhost:27017/", if you want to change it check the 61th line of "zenigata.py";
       . DB that contains the two istance of "The DFIR Report" and "LookOut" has the name of "master", so create a DB name with it 
