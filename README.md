@@ -2,7 +2,7 @@
 This is a project maded by me during my intership period into MalwareBytes.
 
 WHAT IS IT:
-  Zenigata is a Crowler appointed to capture through regular expression all the IOC presents into the web page. 
+  - Zenigata is a Crowler appointed to capture through regular expression all the IOC presents into the web page. 
   The next step consist to saved the datas into a NoSQL MongDB for simplify the research through queries. 
   It was entirely developed in python3 using Requests(for build the request into the web),
   BeautifulSoup4(parsing the HTML structure), Re(used for build the regular expression),  
@@ -10,10 +10,7 @@ WHAT IS IT:
   between the host and the DB instance) and Json(conver the report into a json file for MondoDB) .
 
 SOME INFO ABOUT IT:
-  All the functions are described with functionality, input and output field.
-  The targets of Zenigata are "The DFIR Report" which pubbish threath, malware analysis report
-  for Windows, Linux, MacOS, and "LookOut" that talk about threath, a simplex malware analysis report
-  for Android and iOS device.
+  - All the functions are described with functionality, input and output field. The targets of Zenigata are "The DFIR Report" which pubbish threath, malware analysis report for Windows, Linux, MacOS, and "LookOut" that talk about threath, a simplex malware analysis report for Android and iOS device.
 
 WHAT IS HES PURPOSE:
   - The objective of Zenigata is to save time for the malware analyst, that need IOCs for their purpose.
