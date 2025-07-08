@@ -21,16 +21,16 @@ REQUIREMENTS:
     . requests -> python.exe -m pip install requests;
     . pymongo -> python.exe -m pip install pymongo;
 
-  DEFAULT OPTIONS:
-    - MongoDB settings:
-      . client will connect to "mongodb://localhost:27017/", if you want to change it check the 61th line of "zenigata.py";
-      . DB that contains the two istance of "The DFIR Report" and "LookOut" has the name of "master", so create a DB name with it 
-        or change it into the line 64 of "zenigata.py";
-      . DB Istances(colletion) are named with "dfir" and "lookout", same thighs, if you want to change it go to 46 of "zenigata.py" and change the keys of the dictionary as the name that you want;
-      . If you want to save the reports in local you CAN DO IT!
-        Just go to 2438-2446 lines of "dfirScript.py" and "active" those lines. It will saved in the same directory where "zenigata.py" is saved.
-        For "lookoutScript.py" go to 1338-1346" and active those lines;
-    - Base64 encoding(deactivated):
-      . If you prefer to encode the data before the are shipped to the DB, in both scripts, you need to go to the "replacer" function, active all the return that 
-        encode the string and deactive all the return that returns the simple string;
+DEFAULT OPTIONS:
+  - MongoDB settings:
+    . client will connect to "mongodb://localhost:27017/", if you want to change it check the 61th line of "zenigata.py";
+    . DB that contains the two istance of "The DFIR Report" and "LookOut" has the name of "master", so create a DB name with it 
+      or change it into the line 64 of "zenigata.py";
+    . DB Istances(colletion) are named with "dfir" and "lookout", same thighs, if you want to change it go to 46 of "zenigata.py" and change the keys of the dictionary as the name that you want;
+    . If you want to save the reports in local you CAN DO IT!
+      Just go to 2438-2446 lines of "dfirScript.py" and "active" those lines. It will saved in the same directory where "zenigata.py" is saved.
+      For "lookoutScript.py" go to 1338-1346" and active those lines;
+  - Base64 encoding(deactivated):
+    . If you prefer to encode the data before the are shipped to the DB, in both scripts, you need to go to the "replacer" function, active all the return that 
+      encode the string and deactive all the return that returns the simple string;
         
